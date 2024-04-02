@@ -1,5 +1,3 @@
-import SwiftUI
-
 struct ContentView: View {
     private static let formatter: NumberFormatter = {
         let formatter = NumberFormatter()
@@ -9,7 +7,7 @@ struct ContentView: View {
 
     @FocusState private var focused: Bool
     @State private var value: Double? = 3
-    @State private var valueString: String = (3 as Double).description
+    @State private var valueString = Self.doubleToString(3)
 
     var body: some View {
         VStack {
@@ -26,7 +24,7 @@ struct ContentView: View {
         }
         .onChange(of: focused) {
             if !focused {
-                valueString = value?.description ?? ""
+                valueString = value.map(Self.doubleToString) ?? ""
             }
         }
     }
@@ -37,10 +35,20 @@ struct ContentView: View {
                 valueString
             },
             set: { new in
-                value = Double(new)
-                valueString = new
+                if let newValue = Double(new) {
+                    value = newValue
+                    valueString = Self.doubleToString(newValue)
+                } else if new.isEmpty {
+                    value = nil
+                    valueString = ""
+                }
             }
         )
+    }
+
+    private static func doubleToString(_ value: Double) -> String {
+        let number = NSNumber(value: value)
+        return Self.formatter.string(from: number)!
     }
 }
 
