@@ -8,6 +8,7 @@ These are the feedbacks I'm filing to Apple, to document bugs I come across. The
 - [FB13705157](FB13705157): Sheet background flashes when changing detents
 - [FB13705183](FB13705183): Sheet content doesn't stay centered when programmatically changing detent
 - [FB13705289](FB13705289): Crash when projecting Binding to an unwrapped value
+- [FB13705327](FB13705327): TextField binded value stops changing after field is empty
 
 ## Contributing
 Since this is a list of my feedbacks, please don't add entirely new feedbacks. However, if you have found a workaround not already mentioned, please create an issue with your working code. If the workaround makes use of external packages such as [SwiftUIIntrospect](https://github.com/siteline/swiftui-introspect), make that clear.
