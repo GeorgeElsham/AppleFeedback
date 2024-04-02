@@ -31,5 +31,5 @@ On device
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |
 
 ### Code
-https://github.com/GeorgeElsham/AppleFeedback/blob/main/FB13705098/demo.swift\
-https://github.com/GeorgeElsham/AppleFeedback/blob/main/FB13705098/workaround.swift
+https://github.com/GeorgeElsham/AppleFeedback/blob/fd442e77aa7390a5ec793fe690993ed9e7fe0389/FB13705098/demo.swift\
+https://github.com/GeorgeElsham/AppleFeedback/blob/fd442e77aa7390a5ec793fe690993ed9e7fe0389/FB13705098/workaround.swift
