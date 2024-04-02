@@ -4,6 +4,7 @@ struct ContentView: View {
     private static let formatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
+        formatter.usesGroupingSeparator = false
         return formatter
     }()
 

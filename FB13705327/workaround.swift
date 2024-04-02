@@ -1,7 +1,10 @@
+import SwiftUI
+
 struct ContentView: View {
     private static let formatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.numberStyle = .decimal
+        formatter.usesGroupingSeparator = false
         return formatter
     }()
 
@@ -35,12 +38,17 @@ struct ContentView: View {
                 valueString
             },
             set: { new in
-                if let newValue = Double(new) {
-                    value = newValue
-                    valueString = Self.doubleToString(newValue)
-                } else if new.isEmpty {
+                if new.isEmpty {
                     value = nil
                     valueString = ""
+                } else if let newValue = Double(new) {
+                    value = newValue
+                    valueString = Self.doubleToString(newValue)
+
+                    // May be needed in the case that it is set more than once
+                    if new.hasSuffix(Self.formatter.decimalSeparator) {
+                        valueString.append(Self.formatter.decimalSeparator)
+                    }
                 }
             }
         )
