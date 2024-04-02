@@ -31,5 +31,5 @@ On device
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |
 
 ### Code
-[demo.swift](demo.swift)\
-[workaround.swift](workaround.swift)
+[demo.swift](demo.swift#L1-L34)\
+[workaround.swift](https://github.com/GeorgeElsham/AppleFeedback/blob/6ef3d90f81085c1b71c6ee1668b52b381d19e0fb/FB13705098/workaround.swift#L1-L35)
