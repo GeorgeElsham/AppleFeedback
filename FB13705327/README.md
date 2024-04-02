@@ -30,6 +30,6 @@ On device
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |
 
 ### Code
-https://github.com/GeorgeElsham/AppleFeedback/blob/52c4eac6a9f8884348b2b65be68fd4ad95c6deb1/FB13705327/demo.swift#L1-L29
+https://github.com/GeorgeElsham/AppleFeedback/blob/0d9e4a37db34ca917c99431c43b9ba9ccbbd0958/FB13705327/demo.swift#L1-L29
 
-https://github.com/GeorgeElsham/AppleFeedback/blob/52c4eac6a9f8884348b2b65be68fd4ad95c6deb1/FB13705327/workaround.swift#L1-L49
+https://github.com/GeorgeElsham/AppleFeedback/blob/0d9e4a37db34ca917c99431c43b9ba9ccbbd0958/FB13705327/workaround.swift#L1-L57
