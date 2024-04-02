@@ -11,7 +11,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            TextField("Value", text: valueBinding(), prompt: Text(""))
+            TextField("Value", text: valueBinding())
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.decimalPad)
                 .focused($focused)
