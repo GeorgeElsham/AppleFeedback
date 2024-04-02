@@ -17,7 +17,7 @@ iOS 17.4 Seed 3 (21E5200d)
 On device
 
 ## Description
-- Run the given project.
+- Run the given code.
 - Make sure the sheet is presented.
 - Press "Toggle detent" to toggle the sheet detent.
 - When going from a larger detent to a shorter detent, the background of the sheet doesn't reach the bottom of the screen.
