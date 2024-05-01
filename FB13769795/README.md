@@ -1,9 +1,6 @@
 # Xcode canvas device orientation is reported as unknown
 
 ## Basic Information
-### Please provide a descriptive title for your feedback:
-Xcode canvas device orientation is reported as unknown
-
 ### Which area are you seeing an issue with?
 Simulator
 
