@@ -1,8 +1,8 @@
-# Xcode previews device orientation is reported as unknown
+# Xcode canvas device orientation is reported as unknown
 
 ## Basic Information
 ### Please provide a descriptive title for your feedback:
-Xcode previews device orientation is reported as unknown
+Xcode canvas device orientation is reported as unknown
 
 ### Which area are you seeing an issue with?
 Simulator
@@ -22,7 +22,7 @@ iOS or iPadOS device
 
 ## Description
 - Run the given code.
-- Use "Canvas" / Xcode previews.
+- Use canvas / Xcode previews / SwiftUI previews.
 - See orientation is unknown.
 - In some cases, the orientation may not be reported as unknown. However, after a canvas refresh, it can become unknown again. When switching to one of the landscape orientations, sometimes it may be the correct orientation, and then become unknown when the canvas is refreshed again.
 

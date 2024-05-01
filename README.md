@@ -9,7 +9,7 @@ These are the feedbacks I'm filing to Apple, to document bugs I come across. The
 - [FB13705183](FB13705183): Sheet content doesn't stay centered when programmatically changing detent
 - [FB13705289](FB13705289): Crash when projecting Binding to an unwrapped value
 - [FB13705327](FB13705327): TextField binded value stops changing after field is empty
-- [FB13769795](FB13769795): Xcode previews device orientation is reported as unknown
+- [FB13769795](FB13769795): Xcode canvas device orientation is reported as unknown
 
 ## Contributing
 Since this is a list of my feedbacks, please don't add entirely new feedbacks. However, if you have found a workaround not already mentioned, please create an issue with your working code. If the workaround makes use of external packages such as [SwiftUIIntrospect](https://github.com/siteline/swiftui-introspect), make that clear.
