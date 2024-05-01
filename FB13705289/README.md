@@ -23,7 +23,7 @@ On device
 - I wouldn't expect this code to crash.
 
 ## Evidence
-### GIFs
+### Visual
 | Demo | Workaround |
 |:-:|:-:|
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |

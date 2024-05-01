@@ -25,7 +25,7 @@ On device
 - See the attached workaround, where extra padding is added to the bottom of the background.
 
 ## Evidence
-### GIFs
+### Visual
 | Demo | Workaround |
 |:-:|:-:|
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |

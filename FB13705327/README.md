@@ -24,7 +24,7 @@ On device
 - I would correctly expect the binded value to be set to `nil` when empty, but I would also expect the input to work just as normal after.
 
 ## Evidence
-### GIFs
+### Visual
 | Demo | Workaround |
 |:-:|:-:|
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |

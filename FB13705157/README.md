@@ -25,7 +25,7 @@ On device
 - Can use [SwiftUIIntrospect](https://github.com/siteline/swiftui-introspect) as a workaround.
 
 ## Evidence
-### GIFs
+### Visual
 | Demo | Workaround |
 |:-:|:-:|
 | ![Demo GIF](demo.gif) | ![Workaround GIF](workaround.gif) |

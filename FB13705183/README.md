@@ -23,7 +23,7 @@ On device
 - I would expect the behavior whether dragging or programmatically setting the selected detent to be the same.
 
 ## Evidence
-### GIFs
+### Visual
 | Demo | Workaround |
 |:-:|:-:|
 | ![Demo GIF](demo.gif) | Unknown |
