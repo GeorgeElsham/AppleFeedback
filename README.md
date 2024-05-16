@@ -16,7 +16,9 @@ These are the feedbacks I'm filing to Apple, to document bugs I come across. The
 
 ### [FB13769795](FB13769795): Xcode canvas device orientation is reported as unknown
 Closed, with a comment from Apple:
+
 > UIDeviceOrientation.current.deviceOrientation represents the physical device orientation and is not suitable for app layout. You could consider using some of the UIKit APIs for determining orientation, but the ideal solution would be implementing a flexible layout using SwiftUI APIs.
+
 I suggest using `UIInterfaceOrientation` instead.
 
 ## Contributing
